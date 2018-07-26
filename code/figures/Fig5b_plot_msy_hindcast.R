@@ -14,8 +14,8 @@ library(reshape2)
 library(RColorBrewer)
 
 # Directories
-datadir <- "/Users/cfree/Dropbox/Chris/Rutgers/projects/productivity/models/spmodel_tb1/output"
-plotdir <- "/Users/cfree/Dropbox/Chris/Rutgers/projects/productivity/models/spmodel_tb1/figures"
+datadir <- "/Users/cfree/Dropbox/Chris/Rutgers/projects/productivity/models/sst_productivity/output"
+plotdir <- "/Users/cfree/Dropbox/Chris/Rutgers/projects/productivity/models/sst_productivity/figures"
 
 # Read hindcast data
 load(paste(datadir, "spsst_pella40%_cobe_lme_msy_hindcast_10000traj_mvnorm.Rdata", sep="/"))

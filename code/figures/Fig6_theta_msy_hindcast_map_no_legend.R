@@ -16,8 +16,8 @@ library(reshape2)
 library(RColorBrewer)
 
 # Directories
-datadir <- "/Users/cfree/Dropbox/Chris/Rutgers/projects/productivity/models/spmodel_tb/output"
-plotdir <- "/Users/cfree/Dropbox/Chris/Rutgers/projects/productivity/models/spmodel_tb/figures"
+datadir <- "/Users/cfree/Dropbox/Chris/Rutgers/projects/productivity/models/sst_productivity/output"
+plotdir <- "/Users/cfree/Dropbox/Chris/Rutgers/projects/productivity/models/sst_productivity/figures"
 lmedir1 <- "/Users/cfree/Dropbox/Chris/Rutgers/projects/productivity/data/lme"
 lmedir2 <- "/Users/cfree/Dropbox/Chris/Rutgers/projects/productivity/data/lme/lmes"
 faodir <- "/Users/cfree/Dropbox/Chris/Rutgers/projects/productivity/data/fao_stat_areas/gis_data"

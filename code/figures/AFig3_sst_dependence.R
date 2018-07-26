@@ -12,7 +12,7 @@ library(dplyr)
 library(RColorBrewer)
 
 # Directories
-plotdir <- "/Users/cfree/Dropbox/Chris/Rutgers/projects/productivity/models/spmodel_tb/figures"
+plotdir <- "/Users/cfree/Dropbox/Chris/Rutgers/projects/productivity/models/sst_productivity/figures"
 
 # A. Monotonic SST dependence
 ############################################
