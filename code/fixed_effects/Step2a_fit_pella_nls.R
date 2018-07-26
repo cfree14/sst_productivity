@@ -11,8 +11,8 @@ library(dplyr)
 library(reshape2)
 
 # Directories
-datadir <- "/Users/cfree/Dropbox/Chris/Rutgers/projects/productivity/models/spmodel_tb1/input"
-outputdir <- "/Users/cfree/Dropbox/Chris/Rutgers/projects/productivity/models/spmodel_tb1/output"
+datadir <- "/Users/cfree/Dropbox/Chris/Rutgers/projects/productivity/models/sst_productivity/input"
+outputdir <- "/Users/cfree/Dropbox/Chris/Rutgers/projects/productivity/models/sst_productivity/output"
 
 # Read data
 load(paste(datadir, "ramldb_v3.8_production_data_final.Rdata", sep="/"))

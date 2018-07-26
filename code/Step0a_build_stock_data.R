@@ -15,7 +15,7 @@ library(rfishbase)
 
 # Define directories
 datadir <- "~/Dropbox/Chris/Rutgers/projects/productivity/data/ramldb/ramldb_v3.8"
-outputdir <- "/Users/cfree/Dropbox/Chris/Rutgers/projects/productivity/models/spmodel_tb1/input"
+outputdir <- "/Users/cfree/Dropbox/Chris/Rutgers/projects/productivity/models/sst_productivity/input"
 
 # Read keys
 lme_key <- read.csv(paste(datadir, "ramldb_v38_lme_key.csv", sep="/"), as.is=T)
