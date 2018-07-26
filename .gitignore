@@ -1,0 +1,7 @@
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+code/old_code
+output/spsst_pella40%_cobe_lme_msy_hindcast_trajs.Rdata
+output/spsst_pella40%_cobe_lme_msy_hindcast_10000traj_mvnorm.Rdata

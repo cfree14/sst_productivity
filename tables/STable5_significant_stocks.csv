@@ -1,0 +1,38 @@
+"stockid","spp_name","area","betaT"
+"BIGEYEWPO","Bigeye tuna (Thunnus obesus)","Western Pacific Ocean",1.16
+"SCALLGB","Sea scallop (Placopecten magellanicus)","Georges Bank",0.92
+"HERR30","Atlantic herring (Clupea harengus)","Bothnian Sea",0.72
+"ALBANPAC","Albacore tuna (Thunnus alalunga)","North Pacific Ocean",0.68
+"MONKGOMNGB","Monkfish (Lophius americanus)","Gulf of Maine / Northern Georges Bank",0.55
+"STMARLINSWPO","Striped marlin (Kajikia audax)","Western Pacific Ocean",0.52
+"RROCKLOBSTERCRA7","Red rock lobster (Jasus edwardsii)","New Zealand Area CRA7",0.44
+"HERRRIGA","Atlantic herring (Clupea harengus)","Gulf of Riga East of Gotland",0.38
+"BSBASSMATLC","Black sea bass (Centropristis striata)","Mid-Atlantic Coast",0.37
+"TIGERFLATSE","Tiger flathead (Platycephalus richardsoni)","Southeast Australia",0.37
+"WHAKEGBGOM","White hake (Urophycis tenuis)","Gulf of Maine / Georges Bank",0.27
+"BMARLINATL","Blue marlin (Makaira nigricans)","Atlantic Ocean",0.26
+"CROCKWCVANISOGQCI","Canary rockfish (Sebastes pinniger)","West Coast of Vancouver Island and Straight of Georgia and Queen Charlotte Islands",0.25
+"SCALL5ZMAB","Sea scallop (Placopecten magellanicus)","Georges Bank and Mid-Atlantic Bight",0.25
+"RKCRABBB","Red king crab (Paralithodes camtschaticus)","Bristol Bay",0.23
+"HAKENRTN","European hake (Merluccius merluccius)","IIIa-IV-VI-VII-VIIIabd",0.21
+"SPANMACKSATLC","Spanish mackerel (Scomberomorus maculatus)","Southern Atlantic coast",0.2
+"CROCKPCOAST","Canary rockfish (Sebastes pinniger)","Pacific Coast",0.17
+"KINGKLIPSA","Kingklip (Genypterus capensis)","South Africa",-0.1
+"DEEPCHAKESA","Deep-water cape hake (Merluccius paradoxus)","South Africa",-0.23
+"ALBANATL","Albacore tuna (Thunnus alalunga)","Northern Atlantic",-0.26
+"RROCKLOBSTERCRA2","Red rock lobster (Jasus edwardsii)","New Zealand Area CRA2",-0.3
+"STMARLINIO","Striped marlin (Kajikia audax)","Indian Ocean",-0.32
+"CODVIIek","Atlantic cod (Gadus morhua)","Celtic Sea",-0.36
+"HERRNS","Atlantic herring (Clupea harengus)","North Sea",-0.36
+"POLLNS-VI-IIIa","Saithe (Pollachius virens)","IIIa, VI and North Sea",-0.36
+"SAILEATL","Sailfish (Istiophorus albicans)","Eastern Atlantic",-0.38
+"RHERRTSST","Round herring (Etrumeus sadina)","Tsushima Strait",-0.42
+"CODFAPL","Atlantic cod (Gadus morhua)","Faroe Plateau",-0.47
+"CODNS","Atlantic cod (Gadus morhua)","North Sea",-0.51
+"WHITVIIek","Whiting (Merlangius merlangus)","Celtic Sea",-0.53
+"WHITVIa","Whiting (Merlangius merlangus)","West of Scotland",-0.6
+"SEELNSSA2","Sand eel (Ammodytes marinus)","North Sea",-0.61
+"SEELNSSA3","Sand eel (Ammodytes marinus)","North Sea",-0.7
+"SOLEIS","Common sole (Solea solea)","Irish Sea",-0.72
+"CODIS","Atlantic cod (Gadus morhua)","Irish Sea",-0.8
+"CODVIa","Atlantic cod (Gadus morhua)","West of Scotland",-0.94
