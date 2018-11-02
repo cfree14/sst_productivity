@@ -111,6 +111,12 @@ fin <- subset(final, type=="finfish")
 sum(!is.na(fin$troph)) / nrow(fin)
 sum(!is.na(fin$habitat)) / nrow(fin)
 sum(!is.na(fin$depth_m_mid)) / nrow(fin)
+sum(!is.na(fin$migratory)) / nrow(fin)
+sum(!is.na(fin$repro_mode)) / nrow(fin)
+sum(!is.na(fin$repro_guild1)) / nrow(fin)
+sum(!is.na(fin$repro_guild2)) / nrow(fin)
+sum(!is.na(fin$spawning)) / nrow(fin)
+sum(!is.na(fin$spawning_ground)) / nrow(fin)
 
 # Invertebrate life history
 inv <- subset(final, type=="invertebrate")
@@ -124,6 +130,12 @@ sum(!is.na(inv$tmax_yr)) / nrow(inv)
 sum(!is.na(inv$troph)) / nrow(inv)
 sum(!is.na(inv$habitat)) / nrow(inv)
 sum(!is.na(inv$depth_m_mid)) / nrow(inv)
+sum(!is.na(inv$migratory)) / nrow(inv)
+sum(!is.na(inv$repro_mode)) / nrow(inv)
+sum(!is.na(inv$repro_guild1)) / nrow(inv)
+sum(!is.na(inv$repro_guild2)) / nrow(inv)
+sum(!is.na(inv$spawning)) / nrow(inv)
+sum(!is.na(inv$spawning_ground)) / nrow(inv)
 
 # Export data
 ################################################################################

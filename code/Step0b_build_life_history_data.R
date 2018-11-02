@@ -28,7 +28,7 @@ ramstocks <- read.csv(paste(ramdir, "all_stocks_in_ramldb.csv", sep="/"), as.is=
 ################################################################################
 
 # FishBase/SeaLifeBase taxa keys
-taxa_key_fb <- load_taxa()
+taxa_key_fb <- rfishbase::load_taxa(server="https://fishbase.ropensci.org") 
 taxa_key_slb <- sealifebase
 
 # Build taxa key
@@ -132,6 +132,7 @@ calc_mode <- function(x) {
 ##################################################
 
 # Get FB data
+options(FISHBASE_API = "https://fishbase.ropensci.org")
 finfish <- data$species[data$type=="finfish"]
 base_fb <- species(finfish) # for habitat and depth preferences - one per species
 troph_fb <- ecology(finfish) # for trophic level - one per species
@@ -195,9 +196,9 @@ spawn_slb <- spawning(inverts) # SpawningGround - multiple per species
 
 # Format FishBase info
 base_slb1 <- base_slb %>% 
-  select(sciname, DemersPelag, Length, Weight, LongevityWild,
+  select(sciname, AnaCat, DemersPelag, Length, Weight, LongevityWild,
          DepthRangeShallow, DepthRangeDeep, DepthRangeComShallow, DepthRangeComDeep) %>% 
-  rename(habitat=DemersPelag, lmax_cm=Length, wmax_kg=Weight, tmax_yr=LongevityWild,
+  rename(migratory=AnaCat, habitat=DemersPelag, lmax_cm=Length, wmax_kg=Weight, tmax_yr=LongevityWild,
          depth_m_min=DepthRangeShallow, depth_m_max=DepthRangeDeep,
          comm_depth_m_min=DepthRangeComShallow, comm_depth_m_max=DepthRangeComDeep) %>% 
   mutate(wmax_kg = wmax_kg / 1000,
