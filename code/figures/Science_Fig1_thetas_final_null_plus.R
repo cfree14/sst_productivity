@@ -181,7 +181,7 @@ for(i in 1:length(ex_stocks)){
   # Add warming effect label
   x <- 0-xmax[i]*0.05
   y <- ymax[i]-(ymax[i]-ymin[i])*0.12
-  text(x=x, y=y, labels=ex_text[i], pos=4,  cex=0.9, col="grey50")
+  text(x=x, y=y, labels=ex_text[i], pos=4,  cex=0.9, col="grey30")
   
   # Add letter
   text(x=xmax, y=ymax, labels=LETTERS[i+2], pos=1, font=2, cex=1.1, offset=0.2)
