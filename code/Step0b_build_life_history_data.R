@@ -17,9 +17,8 @@ library(FishLife)
 library(rfishbase)
 
 # Directories
-datadir <- "/Users/cfree/Dropbox/Chris/Rutgers/projects/productivity/models/spmodel_tb/input"
+datadir <- "/Users/cfree/Dropbox/Chris/Rutgers/projects/productivity/models/sst_productivity/input"
 ramdir <- "/Users/cfree/Dropbox/Chris/Rutgers/projects/productivity/data/ramldb/ramldb_v3.8"
-plotdir <- "/Users/cfree/Dropbox/Chris/Rutgers/projects/productivity/models/spmodel_tb/figures"
 
 # RAMLDB stocks
 ramstocks <- read.csv(paste(ramdir, "all_stocks_in_ramldb.csv", sep="/"), as.is=T)
@@ -123,6 +122,12 @@ fin_lh1 <- fin_lh %>%
 # Get FB/SLB life history info
 ################################################################################
 
+# Calculate mode
+calc_mode <- function(x) {
+  ux <- unique(x)
+  ux[which.max(tabulate(match(x, ux)))]
+}
+
 # Finfish
 ##################################################
 
@@ -130,13 +135,18 @@ fin_lh1 <- fin_lh %>%
 finfish <- data$species[data$type=="finfish"]
 base_fb <- species(finfish) # for habitat and depth preferences - one per species
 troph_fb <- ecology(finfish) # for trophic level - one per species
+repro_fb <- reproduction(finfish) # ReproMode, Spawning, RepGuild1, RepGuild2 - one per species
+spawn_fb <- spawning(finfish) # SpawningGround - multiple per species
+# habitat_fb <- ecosystem(finfish) # too much info to digest
+# swim_fb <- swimming(finfish)
 
 # Format FishBase info
 base_fb1 <- base_fb %>% 
-  select(sciname, DemersPelag, 
+  select(sciname, AnaCat, DemersPelag, 
          DepthRangeShallow, DepthRangeDeep, 
          DepthRangeComShallow, DepthRangeComDeep) %>% 
-  rename(habitat=DemersPelag,
+  rename(migratory=AnaCat, 
+         habitat=DemersPelag,
          depth_m_min=DepthRangeShallow,
          depth_m_max=DepthRangeDeep,
          comm_depth_m_min=DepthRangeComShallow,
@@ -146,12 +156,25 @@ base_fb1 <- base_fb %>%
 troph_fb1 <- troph_fb %>%
   select(sciname, FoodTroph, FeedingType) %>%
   rename(troph=FoodTroph, feeding=FeedingType)
+repro_fb1 <- repro_fb %>% 
+  select(sciname, ReproMode, Spawning, RepGuild1, RepGuild2) %>% 
+  rename(repro_mode=ReproMode, spawning=Spawning, repro_guild1=RepGuild1, repro_guild2=RepGuild2)
+spawn_fb1 <- spawn_fb %>% 
+  select(sciname, SpawningGround) %>% 
+  rename(spawning_ground=SpawningGround) %>% 
+  filter(!is.na(spawning_ground)) %>% 
+  group_by(sciname) %>% 
+  summarize(spawning_ground=calc_mode(spawning_ground))
 
 # Add to finfish data
 fin_lh2 <- fin_lh1 %>% 
   left_join(base_fb1, by=c("species"="sciname")) %>% 
-  left_join(troph_fb1, by=c("species"="sciname"))
+  left_join(troph_fb1, by=c("species"="sciname")) %>% 
+  left_join(repro_fb1, by=c("species"="sciname")) %>% 
+  left_join(spawn_fb1, by=c("species"="sciname")) 
 
+# Completeness
+complete(fin_lh2)
 
 # Invertebrates
 ##################################################
@@ -167,6 +190,8 @@ growth_slb <- popgrowth(inverts)
 stocks_slb <- stocks(inverts)
 maxs_slb <- popchar(inverts) # tmax=tmax_yr, Lmax=lmax_cm, Wmax=wmax_g
 maturity_slb <- maturity(inverts) # tm=tmat_yr, Lm=lmat_cm
+repro_slb <- reproduction(inverts) # ReproMode, Spawning, RepGuild1, RepGuild2 - one per species
+spawn_slb <- spawning(inverts) # SpawningGround - multiple per species
 
 # Format FishBase info
 base_slb1 <- base_slb %>% 
@@ -198,15 +223,26 @@ maturity_slb1 <- maturity_slb %>%
   group_by(sciname) %>% 
   summarize(tmat_yr=mean(tm, na.rm=T),
             lmat_cm=mean(Lm[Type1=="TL"], na.rm=T)) 
+repro_slb1 <- repro_slb %>% 
+  select(sciname, ReproMode, Spawning, RepGuild1, RepGuild2) %>% 
+  rename(repro_mode=ReproMode, spawning=Spawning, repro_guild1=RepGuild1, repro_guild2=RepGuild2)
+spawn_slb1 <- spawn_slb %>% 
+  select(sciname, SpawningGround) %>% 
+  rename(spawning_ground=SpawningGround) %>% 
+  filter(!is.na(spawning_ground)) %>% 
+  group_by(sciname) %>% 
+  summarize(spawning_ground=calc_mode(spawning_ground))
 
 # Merge FishBase life history data
 inv_lh <- base_slb1 %>% 
   left_join(growth_slb1, by="sciname") %>% 
   left_join(troph_slb1, by="sciname") %>% 
   left_join(maturity_slb1, by="sciname") %>% 
+  left_join(repro_slb1, by="sciname") %>% 
+  left_join(spawn_slb1, by="sciname") %>% 
   mutate_all(funs(replace(., is.nan(.), NA))) %>% 
   rename(species=sciname) %>% 
-  select(species, linf_cm, k, winf_kg, tmax_yr, tmat_yr, m, lmat_cm, habitat, troph, feeding)
+  select(species, linf_cm, k, winf_kg, tmax_yr, tmat_yr, m, lmat_cm, habitat, troph, feeding, everything())
 
 
 # Merge finfish and invertebrate data
@@ -227,8 +263,8 @@ complete(data1)
 ################################################################################
 
 # Export data
-save(base_fb, troph_fb,
-     base_slb, troph_slb, growth_slb, stocks_slb, maxs_slb, maturity_slb,
+save(base_fb, troph_fb, repro_fb, spawn_fb, 
+     base_slb, troph_slb, growth_slb, stocks_slb, maxs_slb, maturity_slb, repro_slb, spawn_slb, 
      file=paste(datadir, "ramldb_v3.8_species_fb_slb_data.Rdata", sep="/"))
 write.csv(data1, paste(datadir, "ramldb_v3.8_life_history_traits.csv", sep="/"), row.names=F)
 
