@@ -36,7 +36,8 @@ data <- data_orig %>%
                                       "one clear seasonal peak per year"="1 peak / year",
                                       "two seasonal peaks per year"="2 peaks / year",
                                       "Two seasonal peaks per year"="2 peaks / year",
-                                      "Variable throughout range"="variable")),
+                                      "Variable throughout range"="variable\nthroughout range")),
+         spawning=factor(spawning, levels=c("no peaks", "2 peaks / year", "1 peak / year", "1 / lifetime", "variable\nthroughout range")),
          spawning_ground=factor(spawning_ground, levels=c("coastal", "shelf", "oceanic")),
          migratory=factor(migratory, levels=c("catadromous", "anadromous", "oceano-estuarine", "oceanadromous", "non-migratory")))
 
