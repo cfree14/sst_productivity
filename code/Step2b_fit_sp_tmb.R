@@ -9,13 +9,15 @@ rm(list = ls())
 library(TMB)
 library(devtools)
 library(reshape2)
+library(TMBhelper)
 # devtools::install_github("kaskr/TMB_contrib_R/TMBhelper")
 
 # Directories
-tmbdir <- "/Users/cfree/Dropbox/Chris/Rutgers/projects/productivity/models/spmodel_tb1/code/tmb_code"
-datadir <- "/Users/cfree/Dropbox/Chris/Rutgers/projects/productivity/models/spmodel_tb1/input"
-outputdir <- "/Users/cfree/Dropbox/Chris/Rutgers/projects/productivity/models/spmodel_tb1/output"
-codedir <- "/Users/cfree/Dropbox/Chris/Rutgers/projects/productivity/models/spmodel_tb1/code"
+tmbdir <- "/Users/cfree/Dropbox/Chris/Rutgers/projects/productivity/models/sst_productivity/code/tmb_code"
+datadir <- "/Users/cfree/Dropbox/Chris/Rutgers/projects/productivity/models/sst_productivity/input"
+codedir <- "/Users/cfree/Dropbox/Chris/Rutgers/projects/productivity/models/sst_productivity/code"
+outputdir <- "/Users/cfree/Dropbox/Chris/Rutgers/projects/productivity/models/sst_productivity/output"
+plotdir <- "/Users/cfree/Dropbox/Chris/Rutgers/projects/productivity/models/sst_productivity/figures"
 setwd(tmbdir)
 
 # Source helper functions
@@ -135,6 +137,29 @@ for(i in 1:length(params)){
   hist(vals, main="", xlab=params[i], ylab="")
 }
 
+# Inspect residuals over time
+############################################
+
+# Create residuals dataframe
+resids <- model$report()
+resids_df <- data %>% 
+  ungroup() %>% 
+  select(stockid, year) %>% 
+  mutate(pt_pred=resids[[1]])
+
+# Setup plot
+pdf(file.path(plotdir, "sp_model_resid_check.pdf"), width=8.5, height=11)
+par(mfrow=c(6,4), oma=c(2,2,2,2))
+
+# Loop through and plot
+for(i in 1:nstocks){
+  stock <- stocks[i]
+  sdata <- filter(resids_df, stockid==stock)
+  plot(pt_pred ~ year, sdata, type="l", bty="n", xlab="", ylab="SP residuals", las=1, main=stock)
+  abline(h=0, lty=3)
+}
+
+dev.off()
 
 # Save results
 ################################################################################

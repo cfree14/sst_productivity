@@ -52,9 +52,15 @@ Type objective_function<Type>::operator() ()
     nll += pen;
   }
   
+  // Report transformed parameter estimates
   ADREPORT( r );
   ADREPORT( B0 );
   ADREPORT( sigmaP );
+  
+  // Report residuals
+  vector<Type> residuals = P_t - P_t_exp;
+  REPORT(residuals);
+  REPORT(P_t_exp); 
 
   return nll;
 }

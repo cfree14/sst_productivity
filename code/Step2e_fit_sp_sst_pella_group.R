@@ -20,6 +20,7 @@ datadir <- "/Users/cfree/Dropbox/Chris/Rutgers/projects/productivity/models/sst_
 codedir <- "/Users/cfree/Dropbox/Chris/Rutgers/projects/productivity/models/sst_productivity/code"
 outputdir <- "/Users/cfree/Dropbox/Chris/Rutgers/projects/productivity/models/sst_productivity/output"
 faodir <- "/Users/cfree/Dropbox/Chris/Rutgers/projects/productivity/data/fao_stat_areas"
+plotdir <- "/Users/cfree/Dropbox/Chris/Rutgers/projects/productivity/models/sst_productivity/figures"
 setwd(tmbdir)
 
 # Read data
@@ -73,7 +74,7 @@ p <- 0.2
 
 # Which SST dataset?
 # Options: "obs", "n1", "n2", "n3"
-sst <- "n3"
+sst <- "obs"
 if(sst=="obs"){
   sst.data <- data$cobe_sst_c_sd
   outputfile <- paste0("ramldb_v3.8_spsst_pella_cobe_", group, ".Rdata")
@@ -204,6 +205,30 @@ abline(v=results.df$estimate[results.df$param=="mu_T"])
 plot(x=group_mus$estimate, y=1:nrow(group_mus), bty="n", yaxt="n", ylab="")
 axis(2, at=1:nrow(group_mus), labels=group_mus$stockid, las=2, cex.axis=0.6)
 abline(v=0, lty=3)
+
+# Inspect residuals over time
+################################################################################
+
+# Create residuals dataframe
+resids <- model$report()
+resids_df <- data %>% 
+  ungroup() %>% 
+  select(stockid, year) %>% 
+  mutate(pt_pred=resids[[1]])
+
+# Setup plot
+pdf(file.path(plotdir, "sp_pella_group_model_resid_check.pdf"), width=8.5, height=11)
+par(mfrow=c(6,4), oma=c(2,2,2,2))
+
+# Loop through and plot
+for(i in 1:nstocks){
+  stock <- stocks[i]
+  sdata <- filter(resids_df, stockid==stock)
+  plot(pt_pred ~ year, sdata, type="l", bty="n", xlab="", ylab="SP residuals", las=1, main=stock)
+  abline(h=0, lty=3)
+}
+
+dev.off()
 
 
 # SAVE RESULTS
