@@ -5,3 +5,6 @@
 code/old_code
 output/spsst_pella40%_cobe_lme_msy_hindcast_trajs.Rdata
 output/spsst_pella40%_cobe_lme_msy_hindcast_10000traj_mvnorm.Rdata
+revisions/output/ramldb_v3.8_sp_ar1_pella0.55_cobe_lme_msy_hindcast_10000traj_mvnorm.Rdata
+revisions/output/ramldb_v3.8_sp_ar1_pella0.55_cobe_hindcast_10000traj_unorm.Rdata
+revisions/output/ramldb_v3.8_sp_ar1_pella0.55_cobe_fixed_hindcast_10000traj_unorm.Rdata
