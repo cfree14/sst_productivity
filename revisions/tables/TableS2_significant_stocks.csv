@@ -1,0 +1,29 @@
+"stockid","spp_name","area","betaT"
+"GHAL4RST","Greenland halibut (Reinhardtius hippoglossoides)","Gulf of St. Lawrence",0.51
+"COD3Pn4RS","Atlantic cod (Gadus morhua)","Northern Gulf of St. Lawrence",0.46
+"HERR30","Atlantic herring (Clupea harengus)","Bothnian Sea",0.42
+"SCALLGB","Sea scallop (Placopecten magellanicus)","Georges Bank",0.4
+"HERRRIGA","Atlantic herring (Clupea harengus)","Gulf of Riga East of Gotland",0.31
+"PANDALGOM","Northern shrimp (Pandalus borealis)","Gulf of Maine",0.27
+"WHAKEGBGOM","White hake (Urophycis tenuis)","Gulf of Maine / Georges Bank",0.24
+"SPANMACKSATLC","Spanish mackerel (Scomberomorus maculatus)","Southern Atlantic coast",0.18
+"BSBASSMATLC","Black sea bass (Centropristis striata)","Mid-Atlantic Coast",0.16
+"KINGKLIPSA","Kingklip (Genypterus capensis)","South Africa",-0.11
+"ALBANATL","Albacore tuna (Thunnus alalunga)","Northern Atlantic",-0.2
+"ARFLOUNDBSAI","Arrowtooth flounder (Atheresthes stomias)","Bering Sea and Aleutian Islands",-0.2
+"PLAIC7d","European Plaice (Pleuronectes platessa)","Eastern English Channel",-0.25
+"SOLEIIIa","Common sole (Solea solea)","Kattegat and Skagerrak",-0.27
+"PLAICECHW","European Plaice (Pleuronectes platessa)","Western English Channel",-0.28
+"CODVIIek","Atlantic cod (Gadus morhua)","Celtic Sea",-0.29
+"HERRSIRS","Atlantic herring (Clupea harengus)","ICES VIIa-g-h-j",-0.32
+"HERRNS","Atlantic herring (Clupea harengus)","North Sea",-0.33
+"WHITNS-VIId","Whiting (Merlangius merlangus)","IV and VIId",-0.35
+"HADNS-IIIa","Haddock (Melanogrammus aeglefinus)","IIIa and North Sea",-0.36
+"POLLNS-VI-IIIa","Saithe (Pollachius virens)","IIIa, VI and North Sea",-0.36
+"SOLEIS","Common sole (Solea solea)","Irish Sea",-0.39
+"SEELNSSA1","Sand eel (Ammodytes marinus)","North Sea",-0.42
+"CODNS","Atlantic cod (Gadus morhua)","North Sea",-0.44
+"CODVIa","Atlantic cod (Gadus morhua)","West of Scotland",-0.45
+"SEELNSSA2","Sand eel (Ammodytes marinus)","North Sea",-0.47
+"SEELNSSA3","Sand eel (Ammodytes marinus)","North Sea",-0.5
+"CODIS","Atlantic cod (Gadus morhua)","Irish Sea",-0.54

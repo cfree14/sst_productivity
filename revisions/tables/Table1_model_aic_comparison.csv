@@ -1,0 +1,18 @@
+model,k,lik,aic,daic,convergence,gradient
+Pella-45%-AR1-Cobe-Region-LME,943,-19311.98115,-36737.9623,0,0 - relative convergence (4),NA
+Pella-45%-AR1-Cobe-Region-FAO area,943,-19309.33316,-36732.66633,5.29596737,0 - relative convergence (4),NA
+Pella-45%-AR1-Cobe-SA-Method #2,943,-19306.35263,-36726.70527,11.25702724,0 - relative convergence (4),NA
+Pella-45%-AR1-Cobe-Taxa-Family,943,-19305.338,-36724.676,13.28629831,0 - relative convergence (4),NA
+Pella-45%-AR1-Cobe,942,-19300.44878,-36716.89757,21.06473,0 - relative convergence (4),NA
+Pella-45%-AR1-Cobe-Taxa-Order,943,-19300.58056,-36715.16113,22.80116876,0 - relative convergence (4),NA
+Pella-45%-AR1-Cobe-SA-Method #1,943,-19300.44879,-36714.89757,23.06472518,0 - relative convergence (4),NA
+Pella-45%-AR1-HadISST,942,-19290.50455,-36697.00911,40.953188,0 - relative convergence (4),NA
+Pella-45%-AR1-ERSST,942,-19289.23119,-36694.46239,43.49990814,0 - relative convergence (4),NA
+Pella-45%-AR1-Cobe-LME-Null 2,943,-19285.06947,-36684.13894,53.82335343,0 - relative convergence (4),NA
+Pella-45%-AR1-Cobe-LME-Null 1,943,-19283.6504,-36681.30079,56.66150084,0 - relative convergence (4),NA
+Pella-45%-AR1,940,-19280.44587,-36680.89173,57.07056088,0 - relative convergence (4),NA
+SP-AR1,940,-19278.91871,-36677.83742,60.12487324,0 - relative convergence (4),NA
+Pella-45%-AR1-Cobe-LME-Null 3,943,-19280.47046,-36674.94092,63.02137984,0 - relative convergence (4),NA
+Pella-40%-AR1,940,-19271.28201,-36662.56402,75.39827396,0 - relative convergence (4),NA
+Pella-37%-AR1,940,-19261.06211,-36642.12422,95.83807607,0 - relative convergence (4),NA
+SP,705,-16444.75726,-31479.51452,5258.447773,There is no evidence that the model is not converged,9.19E-05
