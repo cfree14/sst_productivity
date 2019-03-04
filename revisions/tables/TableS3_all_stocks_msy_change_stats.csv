@@ -1,0 +1,236 @@
+"lme_name","stockid","spp_name","area","sst_c_avg","sst_c_trend_10yr","betaT","betaT_inf","msy1","msy2","msy_pdiff"
+"Labrador Sea","ACADRED2J3K","Acadian redfish (Sebastes fasciatus)","NAFO Division 2J3K",5.5,0.41,-0.04,"none",122241.71,120081.65,-1.8
+"Scotian Shelf","ACADREDUT3","Acadian redfish (Sebastes fasciatus)","Unit 3",13.5,0.14,0.02,"none",21626.581,21802.722,0.8
+"Mediterranean Sea","ALBAMED","Albacore tuna (Thunnus alalunga)","Mediterranean Sea",18.9,0.16,0,"none",27934.301,27968.548,0.1
+"North Atlantic Ocean","ALBANATL","Albacore tuna (Thunnus alalunga)","Northern Atlantic",12.8,0.07,-0.2,"negative",37116.302,34299.328,-7.6
+"North Pacific Ocean","ALBANPAC","Albacore tuna (Thunnus alalunga)","North Pacific Ocean",21.3,0.09,0.06,"none",122099.2,125226.72,2.6
+"South Atlantic Ocean","ALBASATL","Albacore tuna (Thunnus alalunga)","South Atlantic",10.8,0.08,-0.12,"none",26005.383,24702.952,-5
+"East Bering Sea","ALPLAICBSAI","Alaska plaice (Pleuronectes quadrituberculatus)","Bering Sea and Aleutian Islands",4,0.08,0.01,"none",62123.7939398877,62426.3556218649,0.5
+"Labrador Sea","AMPL23K","American plaice (Hippoglossoides platessoides)","Labrador - NE Newfoundland",4.4,0.4,-0.11,"none",15346.44,14482.259,-5.6
+"Agulhas Current","ANCHOSA","Anchovy (Engraulis encrasicolus)","South Africa",20.2,0.17,-0.04,"none",391380.94,380315.75,-2.8
+"Kuroshio Current","APOLLPJPN","Alaska pollock (Theragra chalcogramma)","Pacific Coast of Japan",10.1,0.3,-0.07,"none",223282.96,213187.25,-4.5
+"East Bering Sea","ARFLOUNDBSAI","Arrowtooth flounder (Atheresthes stomias)","Bering Sea and Aleutian Islands",5.1,0.07,-0.2,"negative",14079.2879581857,12976.8775647727,-7.8
+"Gulf of Alaska","ARFLOUNDGA","Arrowtooth flounder (Atheresthes stomias)","Gulf of Alaska",7.4,0.12,-0.01,"none",47795.4613397334,47680.3782555894,-0.2
+"California Current","ARFLOUNDPCOAST","Arrowtooth flounder (Atheresthes stomias)","Pacific Coast",13.3,0.07,0.14,"none",8957.2984,8830.1434,-1.4
+"Patagonian Shelf","ARGHAKENARG","Argentine hake (Merluccius hubbsi)","Northern Argentina",14.5,0.34,-0.01,"none",136330.91,135062.28,-0.9
+"East Bering Sea","ATKABSAI","Atka mackerel (Pleurogrammus monopterygius)","Bering Sea and Aleutian Islands",5.9,0.02,-0.01,"none",75759.7313089471,75331.0895401621,-0.6
+"South Pacific Ocean","BIGEYEWPO","Bigeye tuna (Thunnus obesus)","Western Pacific Ocean",24.6,0.08,0.11,"none",57355.807,60529.736,5.5
+"Southeast Australian Shelf","BIGHTREDSE","Bight redfish (Centroberyx gerrardi)","Southeast Australia",16.7,0.1,0.11,"none",546.342558620704,578.667107543078,5.9
+"California Current","BLACKROCKNPCOAST","Black rockfish (Sebastes melanops)","Northern Pacific Coast",11.8,0.23,0.1,"none",450.11002,453.49763,0.8
+"California Current","BLACKROCKSPCOAST","Black rockfish (Sebastes melanops)","Southern Pacific Coast",13.3,0.1,0,"none",567.60031,567.82795,0
+"Southeast U.S. Continental Shelf","BLUEFISHATLC","Bluefish (Pomatomus saltatrix)","Atlantic Coast",21.8,-0.04,0.09,"none",15193.946,14760.082,-2.9
+"California Current","BLUEROCKCAL","Blue rockfish (Sebastes mystinus)","California",13,-0.02,-0.01,"none",162.82289,163.02422,0.1
+"East China Sea","BMACKECS","Blue mackerel (Scomber australasicus)","East China Sea",21.4,0.04,-0.05,"none",65101.844,60996.148,-6.3
+"North Atlantic Ocean","BMARLINATL","Blue marlin (Makaira nigricans)","Atlantic Ocean",11.9,0.08,-0.06,"none",1693.4837,1650.6836,-2.5
+"Indian Ocean","BMARLINIO","Indo-Pacific blue marlin (Makaira mazara)","Indian Ocean",24.2,0.12,0.12,"none",7131.3356,7644.7844,7.2
+"Gulf of Alaska","BOCACCBCW","Bocaccio (Sebastes paucispinis)","British Columbia Waters",9.9,0.03,-0.03,"none",748.1706,741.49165,-0.9
+"California Current","BOCACCSPCOAST","Bocaccio (Sebastes paucispinis)","Southern Pacific Coast",13.7,-0.04,0.02,"none",2057.9316,2051.8708,-0.3
+"Northeast U.S. Continental Shelf","BSBASSMATLC","Black sea bass (Centropristis striata)","Mid-Atlantic Coast",15.3,0.08,0.16,"positive",3325.4889,3525.4966,6
+"Southeast U.S. Continental Shelf","BSBASSSATL","Black sea bass (Centropristis striata)","South Atlantic",24.5,-0.08,0.1,"none",984.39925,916.70005,-6.9
+"Humboldt Current","BSQLOBSTERCH","Blue squat lobster (Cervimunida johni)","Chilean EEZ and offshore",13,-0.06,-0.08,"none",6634.5715,6386.3852,-3.7
+"Humboldt Current","BWHITCH","Blue whiting (Micromesistius poutassou)","Chilean EEZ and offshore",12.9,-0.03,-0.01,"none",2551.154,2534.1879,-0.7
+"Norwegian Sea","BWHITNEA","Blue whiting (Micromesistius poutassou)","Northeast Atlantic",3.8,0.23,0.02,"none",1259317.6,1271002.8,0.9
+"California Current","CABEZNCAL","Cabezon (Scorpaenichthys marmoratus)","Northern California",12.9,-0.03,0.07,"none",36.759783,36.293236,-1.3
+"California Current","CABEZORECOAST","Cabezon (Scorpaenichthys marmoratus)","Oregon Coast",12.6,-0.01,0.03,"none",39.858992,39.789836,-0.2
+"California Current","CABEZSCAL","Cabezon (Scorpaenichthys marmoratus)","Southern California",16,0.04,0,"none",85.395023,85.396244,0
+"Barents Sea","CAPENOR","Capelin (Mallotus villosus)","Barents Sea",0,0.05,-0.01,"none",1460108.84587483,1456388.3746357,-0.3
+"Benguela Current","CHAKESA","Shallow-water cape hake (Merluccius capensis)","South Africa",18.6,0.14,-0.04,"none",44180.699,43194.702,-2.2
+"Humboldt Current","CHERRCHVX","Chilean herring (Clupea bentincki)","Chilean EEZ and offshore region V-X",15.2,-0.01,-0.07,"none",853141.34,815425.57,-4.4
+"California Current","CHILISPCOAST","Chilipepper rockfish (Sebastes goodei)","Southern Pacific Coast",13.3,0.04,0.04,"none",2312.3157,2302.2714,-0.4
+"Benguela Current","CHSQUIDSA","Cape Hope squid (Loligo reynaudii)","South Africa",18.5,0.13,-0.03,"none",7350.3906,7228.5647,-1.7
+"Humboldt Current","CHTRACCH","Chilean jack mackerel (Trachurus murphyi)","Chilean EEZ and offshore",12.9,0.1,-0.01,"none",9.3289605e-13,9.2734996e-13,-0.6
+"Kuroshio Current","CMACKPJPN","Chub mackerel (Scomber japonicus)","Pacific Coast of Japan",18.5,0.15,-0.2,"none",854906.57,715484.94,-16.3
+"East China Sea","CMACKTSST","Chub mackerel (Scomber japonicus)","Tsushima Strait",18.7,0.14,-0.15,"none",388254.13,327449.21,-15.7
+"Labrador - Newfoundland","COD3M","Atlantic cod (Gadus morhua)","Flemish Cap",14.6,0.33,0.37,"none",34101.135,33038.532,-3.1
+"Labrador - Newfoundland","COD3NO","Atlantic cod (Gadus morhua)","Southern Grand Banks",12.8,0.37,0.26,"none",26684.492,26792.064,0.4
+"Labrador - Newfoundland","COD3Pn4RS","Atlantic cod (Gadus morhua)","Northern Gulf of St. Lawrence",5.5,0.37,0.46,"positive",50360.607,73490.338,45.9
+"Labrador - Newfoundland","COD3Ps","Atlantic cod (Gadus morhua)","St. Pierre Bank",7.5,0.48,0.36,"none",14928.29,16788.752,12.5
+"Baltic Sea","CODBA2532","Atlantic cod (Gadus morhua)","Eastern Baltic",7.5,0.2,0.01,"none",282985.42,284670.74,0.6
+"Faroe Plateau","CODFAPL","Atlantic cod (Gadus morhua)","Faroe Plateau",9.2,0.13,-0.18,"none",26498.186,24057.798,-9.2
+"Iceland Shelf and Sea","CODICE","Atlantic cod (Gadus morhua)","Iceland Grounds",5.9,0.1,-0.16,"none",345913.61,315471.52,-8.8
+"Celtic-Biscay Shelf","CODIS","Atlantic cod (Gadus morhua)","Irish Sea",11,0.26,-0.54,"negative",9447.0063,6237.2525,-34
+"Barents Sea","CODNEAR","Atlantic cod (Gadus morhua)","North-East Arctic",1,0.06,0.14,"none",739671.553590788,780735.461242723,5.6
+"North Sea","CODNS","Atlantic cod (Gadus morhua)","North Sea",9.9,0.27,-0.44,"negative",242243.56,173636.79,-28.3
+"Celtic-Biscay Shelf","CODVIa","Atlantic cod (Gadus morhua)","West of Scotland",10.8,0.37,-0.45,"negative",23167.943,17657.749,-23.8
+"Celtic-Biscay Shelf","CODVIIek","Atlantic cod (Gadus morhua)","Celtic Sea",13,0.26,-0.29,"negative",13279.218,11112.3,-16.3
+"California Current","CROCKPCOAST","Canary rockfish (Sebastes pinniger)","Pacific Coast",14.2,-0.04,0.01,"none",826.24193,825.78812,-0.1
+"Gulf of Alaska","CROCKWCVANISOGQCI","Canary rockfish (Sebastes pinniger)","West Coast of Vancouver Island and Straight of Georgia and Queen Charlotte Islands",9.9,0.09,-0.03,"none",390.67118,387.17858,-0.9
+"Agulhas Current","CTRACSA","Cape horse mackerel (Trachurus capensis)","South Africa South coast",19.5,0.11,-0.05,"none",48851.168,47650.658,-2.5
+"Benguela Current","DEEPCHAKESA","Deep-water cape hake (Merluccius paradoxus)","South Africa",18.6,0.13,-0.12,"none",133386.15,124177.63,-6.9
+"South West Australian Shelf","DEEPFLATHEADSE","Deepwater flathead (Platycephalus conatus)","Southeast Australia",17.3,0.07,0.02,"none",700.60612,708.52463,1.1
+"California Current","DKROCKPCOAST","Darkblotched rockfish (Sebastes crameri)","Pacific Coast",14.2,-0.11,-0.03,"none",544.60888,546.46721,0.3
+"Gulf of Alaska","DSOLEGA","Dover sole (Microstomus pacificus)","Gulf of Alaska",7.7,0.12,-0.01,"none",143.95498687435,143.668217022197,-0.2
+"California Current","DSOLEPCOAST","Dover sole (Microstomus pacificus)","Pacific Coast",14.2,-0.04,0.03,"none",13945.819,13903.542,-0.3
+"Gulf of Alaska","DUSROCKGA","Dusky rockfish (Sebastes variabilis)","Gulf of Alaska",7.3,0.04,0.01,"none",514.040162169503,514.938181088948,0.2
+"Gulf of Alaska","ESOLEHS","English sole (Parophrys vetulus)","Hecate Strait",9.4,0.08,0.02,"none",1275.9355,1282.1026,0.5
+"California Current","ESOLEPCOAST","English sole (Parophrys vetulus)","Pacific Coast",14.2,0,0.07,"none",3538.9893,3512.2359,-0.8
+"East Bering Sea","FLSOLEBSAI","Flathead sole (Hippoglossoides elassodon)","Bering Sea and Aleutian Islands",4.4,0.02,0.06,"none",60045.4910595443,61521.1125693023,2.5
+"Gulf of Alaska","FLSOLEGA","Flathead sole (Hippoglossoides elassodon)","Gulf of Alaska",7.3,0.04,-0.02,"none",14956.0716305498,14851.1521689403,-0.7
+"Iberian Coastal","FMEG8c9a","Fourspotted megrim (Lepidorhombus boscii)","VIIIc-IXa",16.5,0.31,-0.21,"none",2721.9078,2277.4696,-16.3
+"South West Australian Shelf","GEMFISHSE","common gemfish (Rexea solandri)","Southeast Australia",18.1,0.09,0.08,"none",625.90295,655.50486,4.7
+"Labrador - Newfoundland","GHAL4RST","Greenland halibut (Reinhardtius hippoglossoides)","Gulf of St. Lawrence",5.7,0.31,0.51,"positive",25935.254,39838.865,53.6
+"Barents Sea","GHALNEAR","Greenland halibut (Reinhardtius hippoglossoides)","North-East Arctic",1,0.1,-0.07,"none",63351.6260433477,61758.8779886348,-2.5
+"California Current","GOPHERSPCOAST","Gopher rockfish (Sebastes carnatus)","Southern Pacific Coast",13,-0.12,-0.01,"none",200.75805,201.02916,0.1
+"California Current","GRNSTROCKPCOAST","Greenstriped rockfish (Sebastes elongatus)","Pacific Coast",16,0.04,-0.11,"none",979.4976,979.42342,0
+"Northeast U.S. Continental Shelf","HAD4X5Y","Haddock (Melanogrammus aeglefinus)","Western Scotian Shelf, Bay of Fundy and Gulf of Maine",11.7,0.19,0.22,"none",17578.922,20008.578,13.8
+"Faroe Plateau","HADFAPL","Haddock (Melanogrammus aeglefinus)","Faroe Plateau",9.3,0.07,-0.1,"none",18638.064,17628.852,-5.4
+"Iceland Shelf and Sea","HADICE","Haddock (Melanogrammus aeglefinus)","Iceland Grounds",5.9,0.39,-0.06,"none",65443.363,63374.192,-3.2
+"Barents Sea","HADNEAR","Haddock (Melanogrammus aeglefinus)","North-East Arctic",1,0.07,0.09,"none",188665.038650939,195031.994356321,3.4
+"North Sea","HADNS-IIIa","Haddock (Melanogrammus aeglefinus)","IIIa and North Sea",9.9,0.25,-0.36,"negative",355626.12,271070.96,-23.8
+"Celtic-Biscay Shelf","HAKENRTN","European hake (Merluccius merluccius)","IIIa-IV-VI-VII-VIIIabd",11.5,0.42,0,"none",67181.077,66975.65,-0.3
+"Baltic Sea","HERR2532","Atlantic herring (Clupea harengus)","Eastern Baltic",7.5,0.38,0.15,"none",189367.47,209574.89,10.7
+"Baltic Sea","HERR30","Atlantic herring (Clupea harengus)","Bothnian Sea",6.2,0.29,0.42,"positive",68479.518,89444.248,30.6
+"Gulf of Alaska","HERRCC","Pacific herring (Clupea pallasii pallasii)","Central Coast",9.9,0.1,-0.05,"none",12414.358,12224.323,-1.5
+"Iceland Shelf and Sea","HERRIsum","Atlantic herring (Clupea harengus)","Iceland Grounds",6,0.53,-0.01,"none",115295.85,114698.56,-0.5
+"Celtic-Biscay Shelf","HERRNIRS","Atlantic herring (Clupea harengus)","Irish Sea",11,0.23,-0.28,"none",27623.536,22249.054,-19.5
+"Greenland Sea","HERRNORSS","Atlantic herring (Clupea harengus)","IIab-Vab-XIVa",1.7,0.23,-0.01,"none",1030695.7,1028065.9,-0.3
+"North Sea","HERRNS","Atlantic herring (Clupea harengus)","North Sea",9.9,0.22,-0.33,"negative",606277.12,471487.67,-22.2
+"Northeast U.S. Continental Shelf","HERRNWATLC","Atlantic herring (Clupea harengus)","Northwestern Atlantic Coast",11.4,0.22,0.2,"none",259391.15,298920.13,15.2
+"Gulf of Alaska","HERRQCI","Pacific herring (Clupea pallasii pallasii)","Queen Charlotte Islands",9.9,0.1,-0.07,"none",9738.8997,9527.5241,-2.2
+"Baltic Sea","HERRRIGA","Atlantic herring (Clupea harengus)","Gulf of Riga East of Gotland",8.3,0.54,0.31,"positive",27666.837,34194.49,23.6
+"Celtic-Biscay Shelf","HERRSIRS","Atlantic herring (Clupea harengus)","ICES VIIa-g-h-j",12.7,0.16,-0.32,"negative",24460.021,19474.286,-20.4
+"East Bering Sea","HERRTOG","Pacific herring (Clupea pallasii pallasii)","Togiak District",4.8,0.08,-0.04,"none",42117.7490619835,41474.2673110258,-1.5
+"Celtic-Biscay Shelf","HERRVIa","Atlantic herring (Clupea harengus)","West of Scotland",10.7,0.1,-0.24,"none",95162.324,82474.974,-13.3
+"Gulf of Alaska","HERRWCVANI","Pacific herring (Clupea pallasii pallasii)","West Coast of Vancouver Island",11.1,0.07,0,"none",19903.018,19907.3,0
+"Humboldt Current","HMACKCH","Horse mackerel (Trachurus trachurus)","Chilean EEZ and offshore",12.9,0.08,-0.01,"none",565552.1,561960.6,-0.6
+"Kuroshio Current","JANCHOPJPN","Japanese anchovy (Engraulis japonicus)","Pacific Coast of Japan",13.8,0.24,-0.19,"none",286555.26,247976.58,-13.5
+"Kuroshio Current","JANCHOSETO","Japanese anchovy (Engraulis japonicus)","Inland Sea of Japan",23.6,0.25,-0.16,"none",95532.804,77376.443,-19
+"East China Sea","JANCHOTSST","Japanese anchovy (Engraulis japonicus)","Tsushima Strait",19.6,0.14,0.09,"none",73909.985,81293.786,10
+"Kuroshio Current","JMACKPJPN","Japanese jack mackerel (Trachurus japonicus)","Pacific Coast of Japan",18.5,0.27,-0.22,"none",110691.127,90540.236,-18.2
+"East China Sea","JMACKTSST","Japanese jack mackerel (Trachurus japonicus)","Tsushima Strait",18.7,0.2,-0.09,"none",184768.71,167209.17,-9.5
+"California Current","KELPGREENLINGORECOAST","Kelp greenling (Hexagrammos decagrammus)","Oregon Coast",12.6,0.11,-0.03,"none",81.688996,81.83599,0.2
+"Agulhas Current","KINGKLIPSA","Kingklip (Genypterus capensis)","South Africa",20.3,0.14,-0.11,"negative",6209.4338,5803.892,-6.5
+"California Current","LINGCODNPCOAST","Lingcod (Ophiodon elongatus)","Northern Pacific Coast",12.3,0.03,0.12,"none",2003.4215,1997.9041,-0.3
+"California Current","LINGCODSPCOAST","Lingcod (Ophiodon elongatus)","Southern Pacific Coast",13.9,0.02,0.02,"none",1858.3263,1853.778,-0.2
+"Northeast U.S. Continental Shelf","LISQUIDATLC","Longfin inshore squid (Doryteuthis pealeii)","Atlantic Coast",13.8,0.1,0.18,"none",39164.562,43063.942,10
+"California Current","LSTHORNHPCOAST","Longspine thornyhead (Sebastolobus altivelis)","Pacific Coast",15.9,-0.01,0.01,"none",925.51242,925.41625,0
+"Iceland Shelf and Sea","MACKNEICES","Mackerel (Scomber scombrus)","IIa-IIIabd-IV-Vb-VI-VII-VIIIabcde-XII-XIV-Ixa",6.7,0.2,-0.02,"none",668463.55,663031.56,-0.8
+"Labrador - Newfoundland","MACKNWATLSA3-4","Mackerel (Scomber scombrus)","Northwest Atlantic (NAFO Subareas 3 and 4)",11,0.26,0.33,"none",32377.584,35301.467,9
+"Iberian Coastal","MEG8c9a","Megrim (Lepidorhombus whiffiagonis)","VIIIc-IXa",16.5,0.31,-0.19,"none",790.54184,675.77373,-14.5
+"Northeast U.S. Continental Shelf","MENATLAN","Atlantic menhaden (Brevoortia tyrannus)","Atlantic",19.3,-0.02,0.22,"none",402863.05,399374.85,-0.9
+"Northeast U.S. Continental Shelf","MONKGOMNGB","Monkfish (Lophius americanus)","Gulf of Maine / Northern Georges Bank",9.3,0.09,0.25,"none",4436.9983,5463.6119,23.1
+"Northeast U.S. Continental Shelf","MONKSGBMATL","Monkfish (Lophius americanus)","Southern Georges Bank / Mid-Atlantic",14,0.09,0.06,"none",17627.369,18185.06,3.2
+"East Bering Sea","NROCKBSAI","Northern rockfish (Sebastes polyspinis)","Bering Sea and Aleutian Islands",5.7,0.02,0.04,"none",5170.72324863277,5253.70576468508,1.6
+"Gulf of Alaska","NROCKGA","Northern rockfish (Sebastes polyspinis)","Gulf of Alaska",7.1,0.1,0.17,"none",2006.97616364457,2130.92115842618,6.2
+"East Bering Sea","NRSOLEEBSAI","Northern rock sole (Lepidopsetta polyxystra)","Eastern Bering Sea and Aleutian Islands",4.5,-0.03,-0.04,"none",148142.03755059,146033.732890052,-1.4
+"Humboldt Current","NSHRIMPCH","Nylon shrimp (Heterocarpus reedi)","Chilean EEZ and offshore",12.9,-0.05,0.01,"none",7305.8058,7358.8136,0.7
+"Southeast Australian Shelf","NZLINGESE","New Zealand ling (Genypterus blacodes)","Southeast Australia",16.2,0.11,0.02,"none",552.6746,561.36439,1.6
+"New Zealand Shelf","NZLINGLIN6b","New Zealand ling (Genypterus blacodes)","New Zealand Areas LIN 6b",9.5,-0.07,0.01,"none",544.52724,544.36319,0
+"New Zealand Shelf","NZSNAPNZ8","New Zealand snapper (Pagrus auratus)","New Zealand Area 8 (Auckland and Central West)",17.7,0.04,0.12,"none",2560.7994,2785.5285,8.8
+"South Pacific Ocean","PACBTUNA","Pacific bluefin tuna (Thunnus orientalis)","Pacific Ocean",21.7,0.07,0.01,"none",23951.708,24038.383,0.4
+"Humboldt Current","PANCHCHVX","Peruvian anchoveta (Engraulis ringens)","Chilean EEZ and offshore region V-X",15.2,0.03,-0.07,"none",456786.93,436655.87,-4.4
+"Humboldt Current","PANCHNCH","Peruvian anchoveta (Engraulis ringens)","North Chilean EEZ and offshore",17.9,-0.04,0.01,"none",981868.32,984648.21,0.3
+"Humboldt Current","PANCHPERUNC","Peruvian anchoveta (Engraulis ringens)","North-Central Peruvian coast",20,0.21,0.01,"none",6991996.3,7042184.2,0.7
+"Humboldt Current","PANCHSCH","Peruvian anchoveta (Engraulis ringens)","South Chilean EEZ and offshore",15.2,0.01,0,"none",86166.583,86015.255,-0.2
+"Northeast U.S. Continental Shelf","PANDALGOM","Northern shrimp (Pandalus borealis)","Gulf of Maine",9,0.24,0.27,"positive",7302.22171181705,9230.07914547333,26.4
+"Humboldt Current","PATGRENADIERCH","Patagonian grenadier (Macruronus magellanicus)","Chilean EEZ and offshore",12.9,-0.05,0.04,"none",143285.75,145988.23,1.9
+"Patagonian Shelf","PATGRENADIERSARG","Patagonian grenadier (Macruronus magellanicus)","Southern Argentina",8.9,0.04,0.03,"none",210607.57,212910.04,1.1
+"Humboldt Current","PCEELCH","New Zealand ling (Genypterus blacodes)","Chilean EEZ and offshore",13,-0.05,0,"none",6327.3266,6333.3983,0.1
+"Gulf of Alaska","PCOD5AB","Pacific cod (Gadus macrocephalus)","Queen Charlotte Sound",10.2,0.07,-0.03,"none",1208.0304,1198.4283,-0.8
+"East Bering Sea","PCODBSAI","Pacific cod (Gadus macrocephalus)","Bering Sea and Aleutian Islands",4.4,0.07,-0.03,"none",273948.058027021,270619.488662572,-1.2
+"Gulf of Alaska","PCODHS","Pacific cod (Gadus macrocephalus)","Hecate Strait",9.5,0.06,-0.07,"none",3916.7943,3839.1713,-2
+"Gulf of Alaska","PCODWCVANI","Pacific cod (Gadus macrocephalus)","West Coast of Vancouver Island",11,0.09,-0.01,"none",2376.2551,2370.465,-0.2
+"East Bering Sea","PERCHEBSAI","Pacific ocean perch (Sebastes alutus)","Eastern Bering Sea and Aleutian Islands",5.7,0.01,0.02,"none",32993.1245663643,33293.1749079886,0.9
+"Gulf of Alaska","PERCHQCI","Pacific ocean perch (Sebastes alutus)","Queen Charlotte Islands",10.2,0.04,-0.04,"none",442.68494,437.84159,-1.1
+"Gulf of Alaska","PERCHWCVANI","Pacific ocean perch (Sebastes alutus)","West Coast of Vancouver Island",11,0.02,-0.02,"none",862.61335,858.72383,-0.5
+"Kuroshio Current","PILCHPJPN","Japanese pilchard (Sardinops sagax)","Pacific Coast of Japan",18.5,0.21,-0.18,"none",2623639.4,2234613.3,-14.8
+"East China Sea","PILCHTSST","Japanese pilchard (Sardinops sagax)","Tsushima Strait",19.6,0.09,-0.06,"none",1322784.8,1244828,-5.9
+"Celtic-Biscay Shelf","PLAIC7d","European Plaice (Pleuronectes platessa)","Eastern English Channel",12.6,0.52,-0.25,"negative",5194.7197,4140.3324,-20.3
+"Celtic-Biscay Shelf","PLAICECHW","European Plaice (Pleuronectes platessa)","Western English Channel",12.6,0.43,-0.28,"negative",2432.6305,1957.7337,-19.5
+"Northeast U.S. Continental Shelf","POLL5YZ","Saithe (Pollachius virens)","Gulf of Maine / Georges Bank",9.6,0.09,0.19,"none",11152.991,12955.314,16.2
+"Faroe Plateau","POLLFAPL","Saithe (Pollachius virens)","Faroe Plateau",9.2,0.13,0.01,"none",41169.308,41416.587,0.6
+"Iceland Shelf and Sea","POLLIEG","Saithe (Pollachius virens)","Iceland Grounds",6,0.39,0.02,"none",64031.105,64646.834,1
+"Barents Sea","POLLNEAR","Saithe (Pollachius virens)","North-East Arctic",1,0.09,0.01,"none",176752.676269042,177153.690195824,0.2
+"North Sea","POLLNS-VI-IIIa","Saithe (Pollachius virens)","IIIa, VI and North Sea",10.3,0.23,-0.36,"negative",222478.11,175665.15,-21
+"California Current","POPERCHPCOAST","Pacific ocean perch (Sebastes alutus)","Pacific Coast",15.9,0.01,-0.07,"none",1219.5036,1219.7517,0
+"California Current","PSOLEPCOAST","Petrale sole (Eopsetta jordani)","Pacific Coast",15.9,0.01,-0.01,"none",1882.5191,1882.6296,0
+"Humboldt Current","PTOOTHFISHCH","Patagonian toothfish (Dissostichus eleginoides)","Chilean EEZ and offshore",12.9,-0.03,-0.02,"none",5863.6141,5792.0983,-1.2
+"South Pacific Ocean","PTOOTHFISHMI","Patagonian toothfish (Dissostichus eleginoides)","Macquarie Island",5.6,-0.03,0.19,"none",165.29697,175.8455,6.4
+"Labrador - Newfoundland","REDDEEP2J3K-3LNO","Deepwater redfish (Sebastes mentella)","NAFO Divisions 2J3K-3LNO",8,0.37,0.32,"none",78996.779,86503.786,9.5
+"Labrador - Newfoundland","REDFISHSPP3M","Sebastes species (Sebastes spp)","Flemish Cap",14.7,0.35,0.32,"none",27109.552,26376.562,-2.7
+"Gulf of Alaska","REYEROCKGA","Rougheye rockfish (Sebastes aleutianus)","Gulf of Alaska",7.6,0.05,0.03,"none",1462.22925443434,1476.70174936003,1
+"Southeast U.S. Continental Shelf","RGROUPSATL","Red grouper (Epinephelus morio)","South Atlantic",24.5,-0.08,0.06,"none",523.1367,499.51349,-4.5
+"Sea of Japan","RHERRTSST","Round herring (Etrumeus sadina)","Tsushima Strait",19.5,0.17,-0.25,"none",39858.148,29580.222,-25.8
+"East Bering Sea","RKCRABBB","Red king crab (Paralithodes camtschaticus)","Bristol Bay",5.1,0.39,-0.01,"none",11791.2657238485,11699.8559331024,-0.8
+"East Bering Sea","RKCRABPI","Red king crab (Paralithodes camtschaticus)","Pribilof Islands",4.8,0.17,0.01,"none",1181.32603127491,1185.0421642035,0.3
+"Southeast U.S. Continental Shelf","RPORGYSATLC","Red porgy (Pagrus pagrus)","Southern Atlantic coast",24.6,-0.15,0.19,"none",361.3507,313.96901,-13.1
+"New Zealand Shelf","RROCKLOBSTERCRA1","Red rock lobster (Jasus edwardsii)","New Zealand Area CRA1",17.9,0.02,0.05,"none",240.17385,251.29275,4.6
+"New Zealand Shelf","RROCKLOBSTERCRA2","Red rock lobster (Jasus edwardsii)","New Zealand Area CRA2",17.5,0.01,0.03,"none",4.1338159e-13,4.2337417e-13,2.4
+"New Zealand Shelf","RROCKLOBSTERCRA3","Red rock lobster (Jasus edwardsii)","New Zealand Area CRA3",16.7,0.03,0.05,"none",146.49868,151.33076,3.3
+"New Zealand Shelf","RROCKLOBSTERCRA4","Red rock lobster (Jasus edwardsii)","New Zealand Area CRA4",14.9,0.01,-0.01,"none",176.60801,175.84678,-0.4
+"New Zealand Shelf","RROCKLOBSTERCRA5","Red rock lobster (Jasus edwardsii)","New Zealand Area CRA5",13.2,-0.01,0.03,"none",15.682801,15.835859,1
+"New Zealand Shelf","RROCKLOBSTERCRA7","Red rock lobster (Jasus edwardsii)","New Zealand Area CRA7",11.2,0.08,0.16,"none",305.49033,310.86025,1.8
+"New Zealand Shelf","RROCKLOBSTERCRA8","Red rock lobster (Jasus edwardsii)","New Zealand Area CRA8",13.8,0.17,-0.11,"none",1737.629,1663.3325,-4.3
+"South West Australian Shelf","RROCKLOBSTERSAUSNZ","Red rock lobster (Jasus edwardsii)","South Australia Northern Zone",16.4,0.09,0.11,"none",740.91276,790.47637,6.7
+"Southeast Australian Shelf","RROCKLOBSTERSAUSSZ","Red rock lobster (Jasus edwardsii)","South Australia Southern Zone",15.1,0.07,0.22,"none",1590.0946,1759.5294,10.7
+"Canary Current","RSARDINWA","Round sardinella (Sardinella aurita)","West Africa",23.5,0.32,0.06,"none",347633.57,362283.85,4.2
+"Southeast U.S. Continental Shelf","RSNAPSATLC","Red snapper (Lutjanus campechanus)","Southern Atlantic coast",24.5,-0.15,0.13,"none",276.61749,251.48436,-9.1
+"Gulf of Alaska","SABLEFEBSAIGA","Sablefish (Anoplopoma fimbria)","Eastern Bering Sea / Aleutian Islands / Gulf of Alaska",6.5,0.1,0.05,"none",18588.4422587596,18965.2895677753,2
+"Gulf of Alaska","SABLEFPCAN","Sablefish (Anoplopoma fimbria)","Pacific Coast of Canada",10.2,0.2,-0.03,"none",352.89854,350.08088,-0.8
+"North Atlantic Ocean","SAILEATL","Sailfish (Istiophorus albicans)","Eastern Atlantic",11.2,0.09,-0.15,"none",1905.9896,1792.2179,-6
+"North Atlantic Ocean","SAILWATL","Sailfish (Istiophorus albicans)","Western Atlantic",13.6,0.07,-0.1,"none",662.76168,639.03405,-3.6
+"Canary Current","SARDINWA","Sardinella (Sardinella spp)","West Africa",23,0.32,0.05,"none",347882.66,360763.67,3.7
+"California Current","SARDPCOAST","Sardine (Sardinops sagax)","Pacific Coast",14.3,-0.16,0,"none",228718.55,228833.04,0.1
+"Agulhas Current","SARDSA","Sardine (Sardinops sagax)","South Africa",20.2,0.17,-0.04,"none",331678.17,322412.47,-2.8
+"California Current","SBELLYROCKPCOAST","Shortbelly rockfish (Sebastes jordani)","Pacific Coast",14.2,0,-0.01,"none",3639.0838,3641.5097,0.1
+"Indian Ocean","SBT","Southern bluefin tuna (Thunnus maccoyii)","Southern Oceans",15,0.11,0.09,"none",17460.9715881833,18501.7985071169,6
+"Northeast U.S. Continental Shelf","SCALL5ZMAB","Sea scallop (Placopecten magellanicus)","Georges Bank and Mid-Atlantic Bight",12.1,0.25,0.38,"none",12794.285,16910.57,32.2
+"Northeast U.S. Continental Shelf","SCALLGB","Sea scallop (Placopecten magellanicus)","Georges Bank",13.2,0.11,0.4,"positive",6541.0305,8427.088,28.8
+"Northeast U.S. Continental Shelf","SCALLNBB","Sea scallop (Placopecten magellanicus)","North Brown Bank",8.7,0.26,0.2,"none",2345.7311,2684.3871,14.4
+"North Sea","SEELNSSA1","Sand eel (Ammodytes marinus)","North Sea",10.2,0.56,-0.42,"negative",563800.08,409533.9,-27.4
+"North Sea","SEELNSSA2","Sand eel (Ammodytes marinus)","North Sea",10.2,0.56,-0.47,"negative",136517.98,95451.331,-30.1
+"North Sea","SEELNSSA3","Sand eel (Ammodytes marinus)","North Sea",10.2,0.56,-0.5,"negative",379478.08,259898.16,-31.5
+"Scotian Shelf","SHAKE4VWX","Silver Hake (Merluccius bilinearis)","Scotian Shelf and Bay of Fundy",14.5,0.34,0.1,"none",18514.741,19143.843,3.4
+"Southeast Australian Shelf","SILVERFISHSE","Silverfish (Seriolella punctata)","Southeast Australia",15.6,0.07,-0.03,"none",2845.3691,2801.9939,-1.5
+"Indian Ocean","SKJCIO","Skipjack tuna (Katsuwonus pelamis)","Indian Ocean",20.6,0.11,0.13,"none",408508.47,441031.42,8
+"North Atlantic Ocean","SKJEATL","Skipjack tuna (Katsuwonus pelamis)","Eastern Atlantic",10.2,0.07,-0.1,"none",289535.22,277536.03,-4.1
+"North Brazil Shelf","SKJWATL","Skipjack tuna (Katsuwonus pelamis)","Western Atlantic",14.3,0.06,0,"none",17326.141,17312.44,-0.1
+"South West Australian Shelf","SNAPSAUSNSG","New Zealand snapper (Pagrus auratus)","Northern Spencer Gulf",17.1,0.18,0.09,"none",372.22214,388.11717,4.3
+"South West Australian Shelf","SNAPSAUSSSG","New Zealand snapper (Pagrus auratus)","Southern Spencer Gulf",17.2,0.19,0.13,"none",263.43744,280.99959,6.7
+"Southeast U.S. Continental Shelf","SNOWGROUPSATLC","Snowy grouper (Hyporthodus niveatus)","Southern Atlantic coast",24.5,-0.12,0.17,"none",221.58918,195.4351,-11.8
+"California Current","SNROCKPCOAST","Splitnose Rockfish (Sebastes diploproa)","Pacific Coast",14.2,-0.02,0.02,"none",2.8947193e-14,2.8884782e-14,-0.2
+"Celtic-Biscay Shelf","SOLECS","Common sole (Solea solea)","Celtic Sea",12.3,0.27,-0.25,"none",257.22405,211.03481,-18
+"North Sea","SOLEIIIa","Common sole (Solea solea)","Kattegat and Skagerrak",9.7,0.66,-0.27,"negative",960.43271,797.63641,-17
+"Celtic-Biscay Shelf","SOLEIS","Common sole (Solea solea)","Irish Sea",11,0.28,-0.39,"negative",1386.0339,1025.18168,-26
+"Celtic-Biscay Shelf","SOLEVIId","Common sole (Solea solea)","Eastern English Channel",12.6,0.44,0.03,"none",4729.4415,4867.1975,2.9
+"Celtic-Biscay Shelf","SOLEVIIe","Common sole (Solea solea)","Western English Channel",12.5,0.28,-0.08,"none",1158.5688,1087.6007,-6.1
+"Bay of Biscay","SOLEVIII","Common sole (Solea solea)","Bay of Biscay",15.1,0.34,0.01,"none",7121.3932,7188.6787,0.9
+"Humboldt Current","SOUTHHAKECH","Southern hake (Merluccius australis)","Chilean EEZ and offshore",13,-0.03,-0.02,"none",9875.4439,9764.7337,-1.1
+"Southeast U.S. Continental Shelf","SPANMACKSATLC","Spanish mackerel (Scomberomorus maculatus)","Southern Atlantic coast",24.8,-0.2,0.18,"positive",2716.2877,2332.1449,-14.1
+"Humboldt Current","SPHAKECH","Peruvian hake (Merluccius gayi gayi)","Chilean EEZ and offshore",12.9,-0.05,-0.01,"none",56856.868,56459.676,-0.7
+"Baltic Sea","SPRAT22-32","Sprat (Sprattus sprattus)","Baltic Areas 22-32",7.7,0.38,0.27,"none",245715.05,297361.63,21
+"Agulhas Current","SSLOBSTERSASC","Southern spiny lobster (Palinurus gilchristi)","South Africa South coast",19.4,0.12,0.01,"none",383.93194,384.97377,0.3
+"California Current","SSTHORNHPCOAST","Shortspine thornyhead (Sebastolobus alascanus)","Pacific Coast",14.2,-0.13,-0.03,"none",1650.2397,1655.0334,0.3
+"California Current","STFLOUNNPCOAST","Starry flounder (Platichthys stellatus)","Northern Pacific Coast",12.4,0.25,0.03,"none",1203.6711,1202.7644,-0.1
+"California Current","STFLOUNSPCOAST","Starry flounder (Platichthys stellatus)","Southern Pacific Coast",13,-0.14,0.06,"none",635.1447,628.6072,-1
+"Indian Ocean","STMARLINIO","Striped marlin (Kajikia audax)","Indian Ocean",24.2,0.12,0.09,"none",3501.4911,3696.0717,5.6
+"North Pacific Ocean","STMARLINNEPAC","Striped marlin (Kajikia audax)","Northeast Pacific",23.9,0.06,-0.07,"none",2013.3462,1974.4624,-1.9
+"South Pacific Ocean","STMARLINSWPO","Striped marlin (Kajikia audax)","Western Pacific Ocean",24.4,0.09,0.26,"none",2033.395,2380.5082,17.1
+"North Pacific Ocean","STMARLINWCNPAC","Striped marlin (Kajikia audax)","Western and Central North Pacific",22.6,0.05,-0.04,"none",9661.4394,9464.5854,-2
+"Northeast U.S. Continental Shelf","SURFMATLC","Atlantic surfclam (Spisula solidissima)","Mid-Atlantic Coast",13.1,0.09,0.07,"none",59229.621,61745.734,4.2
+"Southeast Australian Shelf","SWHITSE","School whiting (Sillago flindersi)","Southeast Australia",17.1,0.11,0.16,"none",1636.1156,1803.2399,10.2
+"South Pacific Ocean","SWORDEPAC","Swordfish (Xiphias gladius)","Eastern Pacific",21,0.07,0.04,"none",1760.9699,1787.773,1.5
+"Mediterranean Sea","SWORDMED","Swordfish (Xiphias gladius)","Mediterranean Sea",19,0.36,0.04,"none",12117.652,12304.865,1.5
+"North Pacific Ocean","SWORDNPAC","Swordfish (Xiphias gladius)","North Pacific Ocean",22,0.05,0.02,"none",14172.843,14280.336,0.8
+"Southeast Australian Shelf","TIGERFLATSE","Tiger flathead (Platycephalus richardsoni)","Southeast Australia",15.7,0.07,0.11,"none",353.38684,376.0255,6.4
+"Gulf of Mexico","TILEGM","Tilefish (Lopholatilus chamaeleonticeps)","Gulf of Mexico",24.4,-0.03,0,"none",110.43851,110.44387,0
+"Southeast U.S. Continental Shelf","TILESATLC","Tilefish (Lopholatilus chamaeleonticeps)","Southern Atlantic coast",24.7,-0.18,-0.02,"none",307.60738,312.10845,1.5
+"Southeast U.S. Continental Shelf","VSNAPSATLC","Vermilion snapper (Rhomboplites aurorubens)","Southern Atlantic coast",24.5,-0.11,0.02,"none",673.5681,662.94579,-1.6
+"Southeast Australian Shelf","WAREHOUESE","whario (Seriolella brama)","Eastern half of Southeast Australia",16.4,0.13,0.09,"none",1053.2643,1126.4136,6.9
+"Southeast Australian Shelf","WAREHOUWSE","whario (Seriolella brama)","Western half of Southeast Australia",16.7,0.12,0.08,"none",388.62644,404.3664,4.1
+"Northeast U.S. Continental Shelf","WHAKEGBGOM","White hake (Urophycis tenuis)","Gulf of Maine / Georges Bank",9.9,0.25,0.24,"positive",4148.0729,5024.7717,21.1
+"North Sea","WHITNS-VIId","Whiting (Merlangius merlangus)","IV and VIId",10.5,0.43,-0.35,"negative",145110.65,110920.35,-23.6
+"Celtic-Biscay Shelf","WHITVIa","Whiting (Merlangius merlangus)","West of Scotland",10.8,0.39,-0.3,"none",10676.6577,8895.6593,-16.7
+"Celtic-Biscay Shelf","WHITVIIek","Whiting (Merlangius merlangus)","Celtic Sea",13.1,0.32,-0.26,"none",17805.565,15148.468,-14.9
+"North Atlantic Ocean","WMARLINATL","White Marlin (Kajikia albida)","Atlantic Ocean",12,0.15,-0.16,"none",1091.4156,1020.86036,-6.5
+"East Bering Sea","WPOLLAI","Alaska pollock (Theragra chalcogramma)","Aleutian Islands",5.9,-0.02,-0.01,"none",51181.1385926932,50906.357850059,-0.5
+"East Bering Sea","WPOLLEBS","Alaska pollock (Theragra chalcogramma)","Eastern Bering Sea",4.3,0.01,-0.08,"none",2401166.46302637,2338139.53778647,-2.6
+"Gulf of Alaska","WPOLLGA","Alaska pollock (Theragra chalcogramma)","Gulf of Alaska",7.3,-0.04,-0.1,"none",222188.991829479,214994.483368382,-3.2
+"West Bering Sea","WPOLLWBS","Alaska pollock (Theragra chalcogramma)","Western Bering Sea",3.9,0.17,0.06,"none",143802.28,146384.02,1.8
+"California Current","WROCKPCOAST","Widow rockfish (Sebastes entomelas)","Pacific Coast",14.2,0.01,0.08,"none",3767.6493,3733.0862,-0.9
+"Gulf of Mexico","YEGROUPGM","Yellowedge grouper (Hyporthodus flavolimbatus)","Gulf of Mexico",24.3,0.07,0.04,"none",274.52298,272.80054,-0.6
+"Northeast U.S. Continental Shelf","YELLSNEMATL","Yellowtail flounder (Limanda ferruginea)","Southern New England /Mid Atlantic",13.4,0.12,0.12,"none",10303.6002,11109.706,7.8
+"Humboldt Current","YNOSESKACH","Yellownose skate (Zearaja chilensis)","Chilean EEZ and offshore",13,-0.05,0.06,"none",300.81619,309.63432,2.9
+"East Bering Sea","YSOLEBSAI","Yellowfin sole (Limanda aspera)","Bering Sea and Aleutian Islands",4,0.12,0.02,"none",145117.416101847,145922.527399859,0.6
+"California Current","YTROCKNPCOAST","Yellowtail rockfish (Sebastes flavidus)","Northern Pacific Coast",12.4,0.14,0.04,"none",4293.6759,4281.9457,-0.3
+"Gulf of Mexico","YTSNAPSATLCGM","Yellowtail snapper (Ocyurus chrysurus)","Southern Atlantic coast and Gulf of Mexico",24.4,0.02,0,"none",1571.1364,1568.2941,-0.2
