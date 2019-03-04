@@ -190,8 +190,20 @@ $(document).ready(function () {
 <div id="impact-of-historical-warming-on-marine-fisheries-production" class="section level3">
 <h3>Impact of historical warming on marine fisheries production</h3>
 <p>This GitHub repository contains the data, code, output, tables, and figures for:</p>
-<p>Free CM, Thorson JT, Pinsky ML, Oken KL, Wiedenmann J, Jensen OP (2019) Impacts of historical warming on marine fisheries production. <em>Science</em> 363(6430): 979–983. <a href="http://science.sciencemag.org/content/363/6430/979">link</a></p>
-<p>The majority of the files of interest are in the “revisions” folder in the base directory which is organized using the following architecture:</p>
+<p>Free CM, Thorson JT, Pinsky ML, Oken KL, Wiedenmann J, Jensen OP (2019) Impacts of historical warming on marine fisheries production. <em>Science</em> 363(6430): 979–983. <a href="http://science.sciencemag.org/content/363/6430/979">[link]</a></p>
+<p>I apologize for the slight disarray but the files of interest are in two places in the repository. First, the data analyzed gets assembled in the “code” folder in the base directory and is saved in the “input” folder in the base directory. The remainder of the files are in the “revisions” directory.</p>
+<p>Here’s a quick run down of the files that assemble the input data and where this data is saved:</p>
+<ol style="list-style-type: decimal">
+<li>code…….. folder containing code to assemble data analyzed in manuscript
+<ul>
+<li>Step0a_build_stock_data.R</li>
+<li>Step0b_build_life_history_data.R</li>
+<li>Step1a_build_spmodel_data.R</li>
+<li>Step1b_add_sst_null_models.R</li>
+</ul></li>
+<li>input……. folder containing analyzed data (RAM Legacy biomass + surplus production and observed and simulated SST time series)</li>
+</ol>
+<p>The remainder of the files are in the “revisions” folder which is organized using the following architecture:</p>
 <ol style="list-style-type: decimal">
 <li>code……… folder containing code to fit models, perform hindcasts, build figures and tables
 <ul>
@@ -204,18 +216,6 @@ $(document).ready(function () {
 <li>output……. folder containing output from model fits, hindcasts, and other results</li>
 <li>tables……. folder containing tables for the manuscript (and some garbage tables)</li>
 </ol>
-<p>The only files of interest that are not in the “revisions” folder are the following:</p>
-<ol style="list-style-type: decimal">
-<li>input……. folder containing analyzed data (RAM Legacy biomass + surplus production and observed and simulated SST time series)</li>
-<li>code…….. folder containing code to assemble data analyzed in manuscript
-<ul>
-<li>Step0a_build_stock_data.R</li>
-<li>Step0b_build_life_history_data.R</li>
-<li>Step1a_build_spmodel_data.R</li>
-<li>Step1b_add_sst_null_models.R</li>
-</ul></li>
-</ol>
-<p>Everything else in these folders is from the pre-review analysis. The analysis improved significantly through the revision process and the majority of the up-to-date code, data, output, tables, figures, etc are in the “revisions” folder.</p>
 <p>The Rdata files containing the bootstrapped temperature-driven MSY trajectories are very large (&gt;500MB) and are not included in the repository. Please email Chris Free (cfree14 AT gmail.com) to request access to these files.</p>
 </div>
 
